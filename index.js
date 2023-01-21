@@ -3,7 +3,7 @@ const path = require("path");
 const bodyparser = require("body-parser")
 const mongoose = require('mongoose');
 
-const DB = "mongodb+srv://sp68:Sachin68@cluster0.krvu6dd.mongodb.net/iEducate?retryWrites=true&w=majority";
+const DB = "mongodb+srv://username:password@cluster0.krvu7ee.mongodb.net/iEducate?retryWrites=true&w=majority";
 
 mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
   console.log("Connected with DB");
